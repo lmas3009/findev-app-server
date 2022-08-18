@@ -9,7 +9,7 @@ import getDevelopers from "../components/getDeveloper.js"
 const router = Router();
 
 router.get("/", (req, res) => {
-  res.send("Welcome to findev123");
+  res.send("Welcome to findev server");
 });
 
 router.post("/auth-create",async(req,res)=>{
