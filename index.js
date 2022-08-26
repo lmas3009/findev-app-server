@@ -18,7 +18,7 @@ dotenv.config();
 
 
 app.get("/",(req,res)=>{
-    res.send("Welcome to findev-app server")
+    res.send("Welcome to the findev-app server")
 })
 
 
